@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>გიუნა მაჭარაშვილი</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+              <img src="assets/logo-white.png" alt="logo" class="logo-dark" />
+              <span>გიუნა</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">მთავარი</a></li>
+          <li><a href="#about">ყველაფერი ჩემზე</a></li>
+          <li><a href="#deals">საყვარელი ადგილები</a></li>
+          <li><a href="#choose">რატომ უნდა ამირჩიოთ მე</a></li>
+          <li><a href="#client">რევიუები</a></li>
+          
+        </ul>
+        
+      </nav>
+      <div class="header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>👍 100% ნდობით აღჭურვილი ადამიანი</h2>
+          <h1>ადამიანი, რომელიც არავის არაფერს შეარჩენს.</h1>
+          <p class="section__description">
+            თქვენ შეგიძლიათ საკუთარ თავზე გამოსცადოთ უნიკალური იქსფერიენსი. იურთიერთოთ ადამიანთან, რომელმაც ყველაზე და ყველაფერზე ყველაფერი იცის.
+          </p>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section class="section__container about__container" id="about">
+      <h2 class="section__header">როგორ მუშაობს</h2>
+      <p class="section__description">
+        თქვენ უბრალოდ არსებობთ, დანარჩენს კი მე მივხედავ.
+      </p>
+      <div class="about__grid">
+        <div class="about__card">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          <h4>ლოკაციის არჩევა</h4>
+          <p>
+            ადგილის არჩევა იყო და იქნება ჩემი ძლიერი მხარე.
+          </p>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-calendar-event-fill"></i></span>
+          <h4>თარიღის განსაზღვრა</h4>
+          <p>
+            მოგეხსენებათ ჩემი ერთ-ერთი ძლიერი მხარეა დროის მენეჯმენტი. ასე რომ ეს საქმე მე მომანდე პონჩიკივით ტკბილო.
+          </p>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-roadster-fill"></i></span>
+          <h4>მომსახურება მანქანით</h4>
+          <p>
+            ქალაქის საცობებში ძალიან მეზარება ავტომობილით გადაადგილება, სხვა შემთხვევაში გენაცვალოთ ჩემი თავი.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="deals" id="deals">
+      <div class="section__container deals__container">
+        <h2 class="section__header">საუკეთესო ადგილები</h2>
+        <p class="section__description">
+          ადგილები ფილტრების მიხედვით.
+        </p>
+        <div class="deals__tabs">
+          <button class="btn active" data-id="Tesla">მეგობართან</button>
+          <button class="btn" data-id="Mitsubishi">გოგოსთან</button>
+          <button class="btn" data-id="Mazda">მარტო</button>
+          
+        </div>
+        <div id="Tesla" class="tab__content active">
+          <div class="deals__card">
+            <img src="assets/besetka.jpg" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>ბესეტკა</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 2-8 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> ყველა უბანში
+              </div>
+              
+              <div>
+                <span><i class="ri-car-line"></i></span> უმჯობესია ფეხით
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/სახლი.jpg" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(450)</span>
+            </div>
+            <h4>რომელიმეს სახლი</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 2 - +∞ ადამიანი  
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> უმეტესად გლდანი
+              </div>
+              
+              <div>
+                <span><i class="ri-car-line"></i></span> აუცილებლად მანქანით
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/ბიკენტი.jpg" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              
+              <span>(550)</span>
+            </div>
+            <h4>ბიკენტიას საქაბაბე</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 2-5 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> ქუთაისი
+              </div>
+            
+              <div>
+                <span><i class="ri-car-line"></i></span> აუცილებლად მანქანით
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Mitsubishi" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/კარტინგი.jpg" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span>(350)</span>
+            </div>
+            <h4>კარტინგები</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 2 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> თბილისი/რუსთავი
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> აუცილებლად მანქანით
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+        
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/klden.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(250)</span>
+            </div>
+            <h4>კლდეზე ცოცვა</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 2 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> ვაკე
+              </div>
+              
+              <div>
+                <span><i class="ri-car-line"></i></span> უმჯობესია ფეხით
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/ჩოხი.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(150)</span>
+            </div>
+            <h4>ჩოხი ფასანაურში</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 2 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> ფასანაური
+              </div>
+              
+              <div>
+                <span><i class="ri-car-line"></i></span> აუცილებლად მანქანით
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Mazda" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/გლდანი.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(200)</span>
+            </div>
+            <h4>გლდანი</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 1 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> გლდანი
+              </div>
+              
+              <div>
+                <span><i class="ri-car-line"></i></span> რითაც გამიხარდება
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/საწოლი.jpg" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span>(100)</span>
+            </div>
+            <h4>საწოლი</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 1 ადამიანი
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> შენივე ოთახი
+              </div>
+              
+              <div>
+                <span><i class="ri-car-line"></i></span> წასვლაც არაა საჭირო
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              
+              <a href="#">
+                დაჯავშნე ახლავე
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          
+        
+        
+          </div>
+        
+    </section>
+
+    <section class="choose__container" id="choose">
+      
+        <!-- <div class="choose__image">
+          <img src="assets/qurduli.jpg" alt="choose" />
+        </div> -->
+      <div class="choose__content">
+        <h2 class="section__header">რატომ უნდა ამირჩიო მე</h2>
+        
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-customer-service-line"></i></span>
+            <div>
+              <h4>საფორთი</h4>
+              <p>შემიძლია 24/7 დახმარება.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-map-pin-line"></i></span>
+            <div>
+              <h4>ლოკაციების მრავალფეროვნება</h4>
+              <p>
+                საცა გინდა როცა გინდა.
+              </p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-wallet-line"></i></span>
+            <div>
+              <h4>საუკეთესო პირობები</h4>
+              <p>ფასი დაბალი ხარისხი მაღალი.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-user-star-line"></i></span>
+            <div>
+              <h4>გამოცდილი მძღოლი</h4>
+              <p>სუპერ დუპერ უსაფრხო, სწრაფი და მაგარი მძღოლი.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-verified-badge-line"></i></span>
+            <div>
+              <h4>სერთიფიცირებული მანიაკი</h4>
+              <p>აღწერასაც არ საჭიროებს.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-calendar-close-line"></i></span>
+            <div>
+              <h4>გაუქმება</h4>
+              <p>პრობლემების გარეშე suscribtion-ის გაუქმება.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe__container">
+      <div class="subscribe__image">
+        <img src="assets/sayvaruli.jpg" alt="subscribe" />
+      </div>
+      <div class="subscribe__content">
+        <h2 class="section__header">
+          გამოგვიწერეთ სიახლეებისათვის
+        </h2>
+        <p class="section__description">
+          დაგვიტოვეთ თქვენი საკონტაქტო მეილი და ჩვენი სექსუალური ასისტენტი აუცილებლად დაგიკავშირდებათ
+        </p>
+        <form action="/">
+          <input type="text" placeholder="შენი მეილი" />
+          <button class="btn">გაგზავნა</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">რას ამბობს ხალხი ჩემზე?</h2>
+      <p class="section__description">
+        კმაყოფილი კლენტები ჩემი განუყოფელი ნაწილია, ნახეთ რას ამბობენ მომხმარებლები.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/san.jfif" alt="client" />
+                <div>
+                  <h4>სანდრო ციმინტია</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                მაგარი კაცია, დისკრიმინანტის ფორმულა როცა მავიწყდება სულ მახსენებს.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/lulu.jpg" alt="client" />
+                <div>
+                  <h4>ლუის ჰამილტონი</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                ნიკო როზბერგმა იგივე მანქანით ერთხელ მომიგო, გიორგი 3 - ჯერ შეძლებდა იგივეს.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/საბა.png" alt="client" />
+                <div>
+                  <h4>საბა სულაქველიძე</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                მაგარი კაცია, თან კაბრიოლეტი პეჟო ყავს.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/nana.jpg" alt="client" />
+                <div>
+                  <h4>ნანა ბურჯანაძე</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                მე, როგორც გიორგის ყოფილმა დამრიგებელმა შემიძლია მოვიბოდიშო, რადგან გიორგის ვერ ვაფასებდი სკოლის პერიოდში.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/chubese.jpg" alt="client" />
+                <div>
+                  <h4>Li Huan</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                你为什么要翻译这个
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo-white.png" alt="logo" />
+              <span>პაწუკა გიუნა</span>
+            </a>
+          </div>
+          <p>
+            მე ვზრუნავ თქვენს განწყობაზე, კეთილი ინებეთ და თქვენც იზრუნეთ.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/giorgi.macharashvii" target="_blank"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://x.com/AMX___1" target="_blank"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/machara00/" target="_blank"><i class="ri-instagram-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>სერვისები</h4>
+          <ul class="footer__links">
+            <li><a href="#home">მთავარი</a></li>
+            <li><a href="#about">ყველაფერი ჩემზე</a></li>
+            <li><a href="#deals">საუკეთესო ადგილები</a></li>
+            <li><a href="#choose">რატომ უნდა ამირჩიოთ მე</a></li>
+            <li><a href="#client">ხალხის აზრი</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>კონტაქტი</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +995 555 27 04 **
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-fill"></i></span> გლდანი, თბილისი
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span>  halamadridgio@gmail.com
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 გიუნა. ყველა უფლება დაცულია.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
